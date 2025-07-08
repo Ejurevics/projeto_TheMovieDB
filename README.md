@@ -4,11 +4,15 @@
 
 
 
+
+
 ##### **Objetivo**
 
 
 
 Analisar filmes populares da API TheMovieDB, explorando popularidade e avaliações.
+
+
 
 
 
@@ -28,6 +32,8 @@ Power BI
 
 
 
+
+
 ##### **Passos**
 
 
@@ -37,6 +43,4 @@ Coleta e tratamento dos dados via script Python (Script/coleta\_api.py)
 Salvamento em CSV (Dados/filmes\_populares.csv)
 
 Criação do dashboard no Power BI (Dashboard/filmes\_dashboard.pbix)
-
-
 
