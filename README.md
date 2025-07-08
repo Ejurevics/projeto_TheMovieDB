@@ -1,34 +1,42 @@
-🎬 **Análise de Filmes Populares com TheMovieDB**
+# **Análise de Filmes Populares — TheMovieDB**
 
 
 
-📌 **Objetivo**
-
-Este projeto analisa filmes populares coletados via API pública da TheMovieDB, com foco em popularidade, avaliações e gêneros nos últimos anos.
 
 
-
-🔧 **Tecnologias usadas**
-
-\- Python + Pandas
-
-\- Power BI
-
-\- API TheMovieDB
+##### **Objetivo**
 
 
 
-🧪 **Etapas**
-
-1\. Coleta dos dados com Python (`coleta\\\_api.py`)
-
-2\. Salvamento dos dados em `dados/filmes\\\_populares.csv`
-
-3\. Criação do dashboard com insights visuais no Power BI
+Analisar filmes populares da API TheMovieDB, explorando popularidade e avaliações.
 
 
 
-📊 **Dashboard**
 
-\[Inserir imagem ou print do dashboard]
+
+##### **Tecnologias**
+
+
+
+API TheMovieDB
+
+Python + Pandas
+
+Power BI
+
+
+
+
+
+##### **Passos**
+
+
+
+Coleta e tratamento dos dados via script Python (Script/coleta\_api.py)
+
+Salvamento em CSV (Dados/filmes\_populares.csv)
+
+Criação do dashboard no Power BI (Dashboard/filmes\_dashboard.pbix)
+
+
 
