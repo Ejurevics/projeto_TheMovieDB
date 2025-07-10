@@ -1,9 +1,16 @@
 import requests
 import pandas as pd
 import time
+import os
+from dotenv import load_dotenv
+
+# ATIVAR VENC:  ->  .\venv\Scripts\Activate.ps1
+
+# Carrega variáveis de ambiente do .env
+load_dotenv()
 
 # Configurações da API
-API_KEY = "eacf4954e3a571aa6d2ba7f5b57e32ef"
+API_KEY = os.getenv("TMDB_API_KEY")
 BASE_URL = "https://api.themoviedb.org/3"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 

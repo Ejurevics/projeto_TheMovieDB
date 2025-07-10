@@ -1,0 +1,10 @@
+# Ignorar arquivos de ambiente local
+.env
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos do sistema (Windows/Mac)
+Thumbs.db
+.DS_Store
